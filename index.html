@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My personal portfolio website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="./index.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+<body >
+
+    <!--*******NAVBAR******-->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">HESBORN</a>
+            <button class="nav__theme-btn" id="nav__theme-btn">
+                <i class="uil uil-moon" id="icon"></i>
+                <i class="uil uil-sun"id="light"></i>
+            </button>
+        </div>
+
+
+    </nav>
+
+    <!--******* FLOATING NAV ******-->
+    <menu class="floating__nav">
+        <a href="#" class="active"><i class="uil uil-estate"></i></a>
+        <a href="#resume"><i class="uil uil-clipboard-alt"></i></a>
+        <a href="#projects"><i class="uil uil-suitcase"></i></a>
+        <a href="#faqs"><i class="uil uil-question"></i></a>
+        <a href="#contact"><i class="uil uil-phone"></i></a>
+    </menu>
+    <header>
+        <div class="header__container">
+            <div class="header__image" data-aos="fade-up" data-aos-delay="800">
+                <img src="./pictures/IMG_20230619_181414.jpg" alt="">
+            </div>
+            <h5 data-aos="fade-in">Hi, I'm Hesborn Nyandarua</h5>
+            <h1 data-aos="fade-in">Fullstack <span>web developer</span><br>Based in Kenya</h1>
+            <p data-aos="fade-up">
+                I never stop designing till you are 114% satisfied with the design, I produce elite level, commercial and personal portfolio websites in terms
+                functionality, visual appeal and user friendliness. Bring in work !
+            </p>
+            <div class="header__cta" data-aos="fade-in">
+                <a href="#projects" class="btn">My projects</a>
+                <a href="#contact" class="btn primary">Hire me</a>
+            </div>
+
+            <menu class="header__socials">
+                <a href="https://github.com/hesbornnyandarua"><i class="uil uil-github-alt"></i></a>
+                <a href="https://youtube.com/hesbornnyandarua"><i class="uil uil-youtube"></i></a>
+                <a href="https://instagram.com/hesbornnyandarua"><i class="uil uil-instagram-alt"></i></a>
+                <a href="https://wa.me/+254746574144"><i class="uil uil-whatsapp-alt"></i></a>
+                <a href="https://phone.com/hesbornnyandarua"><i class="uil uil-phone-alt"></i></a>
+            </menu>
+        </div>
+    </header>
+
+    <section id="resume">
+        <div class="container resume__container" data-aos="fade-in" data-aos-delay="200">
+            <div class="resume__left">
+                <h1>Why hire me?</h1>
+                <p>I am  a devoted  and highly skilled young man. My mission is always to deliver
+                    high quality and outstanding projects within the provided time frame. Try me and there will be no regrates.
+                </p>
+                <menu>
+                    <button class="btn primary experience__btn" id="experience">Experience</button>
+                    <button class="btn education__btn" id="education">Education</button>
+                    <button class="btn skills__btn" id="skills">Skills</button>
+                    <button class="btn about__btn" id="about">About me</button>
+                </menu>
+            </div>
+
+            <div class="resume__right">
+                <div class="experienceContent" id="experienceContent">
+                    <h4>Experience</h4>
+                    <p>
+                        <ul>
+                            <li>
+                                <h6>May,2024 - Aug,2024</h6>
+                                <h5>Attachee</h5>
+                                <p>Ministry of ICT Nairobi county</p>
+                            </li>
+
+                            <li>
+                                <h6>2023 - 2025</h6>
+                                <h5>Freelance Web Designer</h5>
+                                <p>Fiverr</p>
+                            </li>
+                            <li>
+                                <h6>May,2024 - Aug,2024</h6>
+                                <h5>Attachee</h5>
+                                <p>Ministry of ICT Nairobi county</p>
+                            </li>
+
+                            <li>
+                                <h6>2023 - 2025</h6>
+                                <h5>Freelance Web Designer</h5>
+                                <p>Fiverr</p>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="educationContent" id="educationContent">
+                    <h4>Education</h4>
+                    <p> Here are my qualifications and the institutions I obtained them from</p>
+                        <ul>
+                            <li>
+                                <h5>University Education</h5>
+                                <p>
+                                    I went to Kenyatta University since (2021 - 2025) where I persued bachelors of Information Technology(IT)
+                                </p>
+                            </li>
+
+                            <li>
+                                
+                                <h5>Backend Education</h5>
+                                <p>
+                                    Most part of it was self taught with the aid of e-books and youtube videos done by
+                                    experts in the same field.
+                                </p>
+                            </li>
+                            <li>
+                                
+                                <h5>Highschool Education</h5>
+                                <p>
+                                    Attended Nyambaria Highschool (2017-2020) and obtained a B+
+                                </p>
+                            </li>
+
+                        </ul>
+                    
+                </div>
+                <div class="skills" id="skills">
+                    <h4>Skills</h4>
+                    <p>
+                        <ul>
+                            <li><img src="./pictures/IMG_20230619_181414.jpg" alt=""></li>
+                            <li><img src="./pictures/IMG_20230619_181414.jpg" alt=""></li>
+                            <li><img src="./pictures/IMG_20230619_181414.jpg" alt=""></li>
+                            <li><img src="./pictures/IMG_20230619_181414.jpg" alt=""></li>
+                            <li><img src="./pictures/IMG_20230619_181414.jpg" alt=""></li>
+                            <li><img src="./pictures/IMG_20230619_181414.jpg" alt=""></li>
+                            <li><img src="./pictures/IMG_20230619_181414.jpg" alt=""></li>
+                           
+                        </ul>
+                    </p>
+                </div>
+                <div class="aboutMe" id="aboutMe">
+                    <h4>About Me</h4>
+                    <p>
+                        <ul>
+                            <li>
+                                <h6>Name:</h6>
+                                <h5>Hesborn Nyandarua</h5>
+                            </li>
+
+                            <li>
+                                <h6>Email:</h6>
+                                <h5>nyandaruahesborn5@gmail.com</h5>
+                            </li>
+                            <li>
+                                <h6>Nationality:</h6>
+                                <h5>Kenyan</h5>
+                            </li>
+                            <li>
+                                <h6>Phone:</h6>
+                                <h5>+254746574144</h5>
+                            </li>
+                            <li>
+                                <h6>LinkedIn:</h6>
+                                <h5>@myhundle</h5>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--******* PROJECTS******-->
+    <section class="projects" id="projects">
+        <h1>Recent Projects</h1>
+        <p>
+            Some of my latest projects are displayed below !
+        </p>
+        <menu class="projects__categories">
+            <button type="button" class="btn primary" data-filter="*" id="all">All</button>
+            <button type="button" class="btn" data-filter=".frontend" id="frontend">Frontend</button>
+            <button type="button" class="btn" data-filter=".backend" id="backend">Backend</button>
+            <button type="button" class="btn" data-filter=".fullstack" id="fullstack">Fullstack</button>
+        </menu>
+
+        <div class="container projects__container"  data-aos="fade-in" data-aos-delay="200">
+            <article class=" mix frontend" data-order="1">
+                <div class="project__image">
+                    <img src="./pictures/IMG_20230619_181431.jpg" alt="project One">
+                </div>
+                <h5>My Testing portfolio website(Frontend)</h5>
+                <p>My first ever website</p>
+                <div class="project__cta">
+                    <a href="https://AIchstbot.com" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/Hesbornnyandarua/hesborn" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+
+           <article class="mix fullstack" data-order="2">
+                <div class="project__image">
+                    <img src="./pictures/download.jpeg" alt="project Two">
+                </div>
+                <h5>AI article generator (Fullstack)</h5>
+                <p>An AI app used to transcribe youtube videos</p>
+                <div class="project__cta">
+                    <a href="https://AIchstbot.com" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/Hesbornnyandarua/ai-article-generator
+                    " class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="mix fullstack" data-order="3">
+                <div class="project__image">
+                    <img src="./pictures/download (1).jpeg" alt="project Three">
+                </div>
+                <h5>Netflix clone (Fullstack)</h5>
+                <p>A netflix clone where one can upload and watch movies</p>
+                <div class="project__cta">
+                    <a href="https://AIchstbot.com" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/Hesbornnyandarua/django-netflix-clone
+                    " class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="mix frontend" data-order="4">
+                <div class="project__image">
+                    <img src="./pictures/download (3).jpeg" alt="project Four">
+                </div>
+                <h5>Login page (Frontend)</h5>
+                <p>A login page with all security measures</p>
+                <div class="project__cta">
+                    <a href="https://AIchstbot.com" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/Hesbornnyandarua/workon" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="mix fullstack" data-order="5">
+                <div class="project__image">
+                    <img src="./pictures/IMG_20231012_113231.jpg" alt="project Five">
+                </div>
+                <h5>Real Estate Project (Fullstack)</h5>
+                <p>A web-based system that helps ppeople to buy and sell real estate properties</p>
+                <div class="project__cta">
+                    <a href="https://AIchstbot.com" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/hesbornnyandarua" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="mix backend" data-order="6">
+                <div class="project__image">
+                    <img src="./pictures/hd_2804a008f13649198cc5a66d508f1c8b.jpg" alt="project Six">
+                </div>
+                <h5>A spotify clone (Backend)</h5>
+                <p>A system used used to search and listen for music</p>
+                <div class="project__cta">
+                    <a href="https://AIchstbot.com" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/hesbornnyandarua" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--******* TESTIMONIALS ******-->
+    <section id="swiper">
+        <h1>What My Clients Say</h1>
+        <p>This are some of the feedbacks by clients who have experienced my work</p>
+        <div class="container swiper">
+            <div class="swiper-wrapper">
+                
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/hd_678201092ad0afb733dd2a6dc684b164.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/hd_911436896fe9cb213af92635cb39e9d7.jpg" alt="Client one">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/hd_ae5bb3e9fab449d20d4cfd54a92f22ef.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/hd_ee26104121d36c3e764f3cbe7972e377.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20230118_135801_882.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20230124_130135.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20230124_125943.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20230919_105205.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20231002_213649.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20231121_213552.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20240101_110839.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20231217_201439.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20240101_111013_1.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/IMG_20240124_231151.jpg" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/Screenshot_20220402-222158.png" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/Screenshot_20220413-225327_1.png" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/Screenshot_20220704-182602.png" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/Screenshot_20220604-141902.png" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="swiper-slide">
+                    <figcaption>
+                        I just received my project and my business has taken a different turn in less than two weeks. The website is so appealing visually
+                        and easy to use as well. I really like it!
+                    </figcaption>
+                    <div class="swiper__client">
+                        <div class="swiper__client-avatar">
+                            <img src="./pictures/Screenshot_20230818-202610.png" alt="Client One">
+                        </div>
+                        <div class="swiper__client-details">
+                            <h5>Nana Ama</h5>
+                            <small>Actress</small>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="faqs">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+            This are some of the questions that most of my clients ask
+        </p>
+        <menu class="container faqs__container">
+            <li class="faqs__item"  data-aos="fade-in" data-aos-delay="200">
+                <div class="faqs__item-top">
+                    <span class="faq__icon"><i class="uil uil-angle-down"></i></span>  
+                    <h5>What's your hourly rate?</h5>
+                </div>
+                <div class="faqs__item-bottom">
+                    <span></span>
+                    <p>
+                        I don't really worked based on time usually instead I just focus on completion of the whole project
+                        Hewever I will be glad to consider working with time though for now I havent set any rates yet
+                    </p>
+                </div>
+            </li>
+            <li class="faqs__item"  data-aos="fade-in" data-aos-delay="200">
+                <div class="faqs__item-top">
+                    <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+                    <h5>How much do charge per project?</h5>
+                </div>
+                <div class="faqs__item-bottom">
+                    <span></span>
+                    <p>
+                        No really specific amount as it depends on the complexity of the project hence the amount of work put in.
+                    </p>
+                </div>
+            </li>
+            <li class="faqs__item"  data-aos="fade-in" data-aos-delay="400">
+                <div class="faqs__item-top">
+                    <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+                    <h5>Do you work a lone or as a team?</h5>
+                </div>
+                <div class="faqs__item-bottom">
+                    <span></span>
+                    <p>
+                        Mostly I work as a team depending on the size of the project as well, I have some personal and small projects that don't require that much input 
+                        where I work alone though
+                    </p>
+                </div>
+            </li>
+            <li class="faqs__item"  data-aos="fade-in" data-aos-delay="400">
+                <div class="faqs__item-top">
+                    <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+                    <h5>Are you available for collaborations?</h5>
+                </div>
+                <div class="faqs__item-bottom">
+                    <span></span>
+                    <p>
+                        Absolutely, If the schedule allows it I am definately in
+                    </p>
+                </div>
+            </li>
+            <li class="faqs__item"  data-aos="fade-in" data-aos-delay="600">
+                <div class="faqs__item-top">
+                    <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+                    <h5>What's your average return time?</h5>
+                </div>
+                <div class="faqs__item-bottom">
+                    <span></span>
+                    <p>
+                        I don't really worked based on time usually instead I just focus on completion of the whole project
+                        Hewever I will be glad to consider working with time though for now I havent set any rates yet
+                    </p>
+                </div>
+            </li>
+            <li class="faqs__item" data-aos="fade-in" data-aos-delay="600">
+                <div class="faqs__item-top">
+                    <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+                    <h5>What's your average return time?</h5>
+                </div>
+                <div class="faqs__item-bottom">
+                    <span></span>
+                    <p>
+                        I don't really worked based on time usually instead I just focus on completion of the whole project
+                        Hewever I will be glad to consider working with time though for now I havent set any rates yet
+                    </p>
+                </div>
+            </li>
+        </menu>
+    </section>
+
+    <!--******* CONTACT ******-->
+    <section id="contact">
+        <div class="container contact__container">
+            <menu class="contact__options">
+                <a href="mailto:anyandarhesbon@gmail.com"><i class="uil uil-envelope"></i></a>
+                
+                <a href="https://instagram.com/hesbornnyandarua"><i class="uil uil-instagram-alt"></i></a>
+                    
+                <a href="https://wa.me/+254746574144"><i class="uil uil-whatsapp-alt"></i></a>
+                    
+                <a href="tel:+254746574144"><i class="uil uil-phone"></i></a> 
+                
+            </menu>
+
+            <form action="https://formsubmit.co/anyandarhesbon@gmail.com" method="POST"  data-aos="fade-up">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
+                <textarea rows="7" name="Message" placeholder="Message"></textarea>
+                <button type="submit" class="btn primary">Send</Button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({duration: 2000, offset: 80});
+    </script>
+    <script type="text/javascript" src="index.js" defer></script>
+    <script>
+
+      
+   
+
+    
+    </script>
+    
+</body>
+</html>
