@@ -4,6 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My personal portfolio website</title>
+        <!--Prevent color flashing start-->
+    <!--Write the code at the top here-->
+    <style>
+
+        html[data-theme="light"]{
+            background: #efeff1;
+        }
+        html[data-theme="dark"]{
+            background: #0a0a0c;
+        }
+    </style>
+    <!--js to prevent color flashing-->
+    <script>
+        (function(){
+            const storageKey = "theme";
+            function setTheme(darkmode){
+                document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
+            }
+            const mql = window.matchMedia("(prefers-color-scheme:dark)");
+            const storedTheme = localStorage.getItem(storageKey);
+            const darkMode = storedTheme ? JSON.parse(storedTheme) : mql.matches;
+            setTheme(darkMode);
+            localStorage.setItem(storageKey, darkMode);
+        })();
+    </script>
+    <!--Prevent color flashing end-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
